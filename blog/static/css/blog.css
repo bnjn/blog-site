@@ -1,13 +1,72 @@
-h1 a, h2 a {
-    color: #C25100;
+.page-header {
+    background-color: #C25100;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem 1rem 1.5rem;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Lobster', serif;
+}
+
+a {
     text-decoration: none;
 }
 
-h1 a:hover, h2 a:hover {
-    color: #fc6f00;
+.date {
+    color: #828282;
 }
 
-body {
-    padding-left: 1rem;
+.save {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width : 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #FFFFFF;
+    float: right;
+    font-size: 1.5rem;
+}
+
+.post {
+    margin-bottom: 3rem;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: #000000;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #C25100;
 }
